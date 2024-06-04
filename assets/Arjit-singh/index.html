@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music Player</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" >
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="css/all.min.css" >
+        <link rel="stylesheet" href="css/fontawesome.min.css" >
+
+    </head>
+    <body>
+    <div class="main_div">
+        <div class="music_container">
+            <h2 id="title">Aashique2</h2>
+            <h3 id="artist">Arjit Singh</h3>
+            <div class="img_container">
+                <img src="images/song1(aashique2).jpg">
+            </div>
+            <audio id="song" src="music/song1(aashique2).mp3"></audio>
+            <input type="range" value="0" id="progress">
+            <div class="music_controls">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main_button" id="play" title="PLay"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+    </body>
+</html>
